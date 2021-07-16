@@ -58,11 +58,11 @@ body{
     margin-top: 153px;
     margin-left: 145px;
     margin-bottom: 86px;
-    transition: transform 1s ease-out 0.3s;
+    transition: transform 1s ease-in 0.3s;
 }
 .header:hover .banner{
-    transform: rotate(360deg);
-    transform-origin: top center;
+    transform: scale(1.5);
+    
 }
 /* header end */
 
@@ -194,5 +194,47 @@ body{
     background-color:#E02C6D ;
     color: whitesmoke;
     font-size: 25px;
+    margin-bottom: 30px;
 }
 /* Membership section end */
+
+/* Partnership area start */
+.partnership-area {
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-bottom: 75px;
+    
+}
+.partner-1{
+    transition: transform 1s ease-in 0.3s;
+}
+.partner-1:hover
+{
+    transform: scale(1.5);
+}
+.partner-2{
+    transition: transform 1s ease-in 0.3s;
+}
+.partner-2:hover
+{
+    transform: scale(1.5);
+}
+.partner-3{
+    transition: transform 1s ease-in 0.3s;
+}
+.partner-3:hover
+{
+    transform: scale(1.5);
+}
+
+.partner-headline {
+    text-align: center;
+    margin: 45px 0px;
+    font-size: 50px;
+    color: tomato;
+}
+.partner{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+/* Partnership area end */
