@@ -1,15 +1,28 @@
+/* global style start */
+body,h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
+.container{
+    width:1440px ;
+    background-color:#FFFFFF;
+    
+}
+/* global style end */
 /* header start */
-.header{
+/* .header{
     background-color: #2D25A0;
     Width :1440px;
-    Height :677px;
+    
 
-}
+} */
 .header-detail{
     display: flex;
+    background-color: #2D25A0;
+    width: 100%;
 }
 .header-text{
     font-size: 64px;
@@ -51,3 +64,50 @@ body{
     transform-origin: top center;
 }
 /* header end */
+
+/* player-introduction section */
+.player-introduction{
+    
+}
+.players{
+    width: 1050px;
+    height: 474px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+    align-items: center;
+    margin-left: 180px;
+    margin-right: 210px;
+    margin-top: 70px;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+}
+.player-img img{
+    width: 300px;
+    height: 256px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+.player-name{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+    padding-left: 15px;
+
+}
+.player-about{
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+/* player-introduction section */
