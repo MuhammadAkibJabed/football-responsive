@@ -1,4 +1,5 @@
 /* global style start */
+
 body,h1,h2,h3,h4,h5,h6{
     margin: 0px;
     padding: 0px;
@@ -66,12 +67,9 @@ body{
 /* header end */
 
 /* player-introduction section */
-.player-introduction{
-    
-}
+
 .players{
     width: 1050px;
-    height: 474px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 27px;
@@ -80,6 +78,8 @@ body{
     margin-left: 180px;
     margin-right: 210px;
     margin-top: 70px;
+    margin-bottom: 165px;
+    
 }
 .player{
     width: 330px;
@@ -108,6 +108,50 @@ body{
     padding-bottom: 15px;
 }
 
-
-
 /* player-introduction section */
+
+/* highlights section start  */
+.highlights{
+    margin-left: 182px;
+    margin-right: 156px;
+}
+.watch-section{
+    display: flex;
+    
+    
+}
+.hightlights-headlines{
+    font-size: 48px;
+    /* line-height: 60px; */
+    color: #0A0826;
+}
+
+.highlights-details{
+    width: 469px;
+    height: 309px;
+    
+}
+.watch-button{
+    background: #E02C6D;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 173px;
+    height: 30px;
+    padding: 10px 24px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.watch-button a{
+    text-decoration: none;
+    color: white;
+}
+.highlights-banner img{
+    width: 567px;
+    height: 427px;
+    margin-left: 66px;
+}
+
+/* highlights section end */
