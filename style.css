@@ -238,3 +238,35 @@ body{
     grid-template-columns: repeat(3,1fr);
 }
 /* Partnership area end */
+
+
+/* footer section start */
+.footer-section{
+    width: 483.87px;
+    height: 213px;
+    margin: 75px 481px 65px 475px;
+}
+.footer-banner img{
+    width: 483.87px;
+    height: 110px;
+}
+.contact-area {
+    margin-right: 156.94px;
+    margin-left: 156.94px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact-area a {
+    color: #969BAB;
+    background-color: #E8E7E7;
+    font-size: 18px;
+    padding: 11px;
+    border-radius: 37%;
+}
+.copyright-section {
+    margin-left: 124px;
+    margin-right: 124px;
+    font-size: 18px;
+}
+/* footer section end */
