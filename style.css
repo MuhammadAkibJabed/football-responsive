@@ -270,3 +270,70 @@ body{
     font-size: 18px;
 }
 /* footer section end */
+
+
+/* Media queris */
+/* Mobile devices */
+@media only screen and (max-width:688px)
+ {
+     
+.header-detail{
+        grid-template-columns: repeat(1,1fr);
+        display: flex;
+        flex-direction: column;
+    }
+    .header-info{
+        width: 25%;
+    }
+    .banner{
+        width: 25%;
+    }
+    .players{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .watch-section {
+        display: flex;
+        /* grid-template-columns: repeat(1,1fr); */
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .highlights-details{
+        width: 25%;
+        margin-bottom: 300px;
+    }
+    .highlights-banner img{
+        margin-top: 75px;
+        width: 25%;
+    }
+    .form-headline{
+        width: 10%;
+       
+        color: blue;
+    }
+    .information-fillup{
+        grid-template-columns: repeat(1,1fr);
+        width: 10%;
+    }
+    .partner-headline{
+        width: 10%;
+    }
+    .partner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .partner-1{
+        width: 10%;
+    }
+    .partner-2{
+        width: 10%;
+    }
+    .partner-3{
+        width: 10%;
+    }
+    .footer-banner{
+        width: 10%;
+    }
+    .contact-area{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
