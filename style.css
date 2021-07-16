@@ -114,6 +114,7 @@ body{
 .highlights{
     margin-left: 182px;
     margin-right: 156px;
+    margin-bottom: 75px;
 }
 .watch-section{
     display: flex;
@@ -155,3 +156,43 @@ body{
 }
 
 /* highlights section end */
+
+/* Membership section start */
+.membership-form{
+    background-color:#0A0826 ;
+    margin-left: 182px;
+    margin-right: 295px;
+}
+.form-headline {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.iformation-section{
+    display: flex;
+    justify-content: center;
+}
+.information-fillup {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 25px;
+    margin-bottom: 40px;
+}
+.information-fillup input {
+    font-size: 26px;
+    margin-top: 15px;
+    border: 1px solid lightgray;
+    padding: 10px 40px;
+}
+.membership-button{
+    text-align: center;
+}
+.membership-button button {
+    padding: 20px 35px;
+    border-radius: 10px;
+    background-color:#E02C6D ;
+    color: whitesmoke;
+    font-size: 25px;
+}
+/* Membership section end */
